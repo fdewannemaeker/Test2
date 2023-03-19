@@ -34,7 +34,7 @@
     "bearing": 0,
     "sources": {
         "maplibre": {
-            "url": "https://demotiles.maplibre.org/tiles/tiles.json",
+            "url": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/tiles.json",
             "type": "vector"
         }
     },
