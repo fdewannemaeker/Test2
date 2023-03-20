@@ -3,7 +3,7 @@
     "sources": {
         "example_source": {
             "type": "vector",
-            "url":  "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67",
+            "tyles":  "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67",
             "attribution": "© <a href='https://openstreetmap.org'>OpenStreetMap</a>"
         }
     },
