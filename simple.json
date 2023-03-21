@@ -6,7 +6,7 @@
     "sources": {
         "protomaps": {
             "type": "vector",
-            "url":  "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67",
+            "tiles":  "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67",
             "attribution": "© <a href='https://openstreetmap.org'>OpenStreetMap</a>"
         }
     },
