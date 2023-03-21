@@ -1,4 +1,4 @@
-style: {
+{
     version:8,
     glyphs:'https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf',
     sources: {
