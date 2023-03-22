@@ -67,6 +67,6 @@
         1
     ],
     "tiles": [
-        "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"
+        "https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf"
     ]
 }
