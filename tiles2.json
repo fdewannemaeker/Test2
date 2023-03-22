@@ -20,7 +20,7 @@
     "description": "",
     "vector_layers": [
         {
-            "id": "geolines",
+            "id": "geolinesz",
             "fields": {
                 "name": "String"
             },
