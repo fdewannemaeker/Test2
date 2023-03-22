@@ -39,7 +39,7 @@
             "description": "world countries points"
         },
         {
-            "id": "countries",
+            "id": "countriesz",
             "fields": {
                 "fid": "Number",
                 "NAME": "String",
