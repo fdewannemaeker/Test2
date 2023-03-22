@@ -1,12 +1,5 @@
 {
     "tilejson": "2.0.0",
-    "sources": {
-        "example_source": {
-            "type": "vector",
-            "tyles":  "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67",
-            "attribution": "© <a href='https://openstreetmap.org'>OpenStreetMap</a>"
-        }
-    },
     "name": "maplibre",
     "type": "baselayer",
     "scale": "1.000000",
@@ -26,32 +19,37 @@
     "attribution": " ",
     "description": "",
     "vector_layers": [
-       {
-            "id":"buildings",
-            "source": "example_source",
-            "source-layer":"landuse",
-            "type": "fill",
-            "paint": {
-                "fill-color": "steelblue"
-            }
+        {
+            "id": "geolines",
+            "fields": {
+                "name": "String"
+            },
+            "maxzoom": 4,
+            "minzoom": 0,
+            "description": "geographic lines"
         },
         {
-            "id":"roads",
-            "source": "example_source",
-            "source-layer":"roads",
-            "type": "line",
-            "paint": {
-                "line-color": "black"
-            }
+            "id": "centroids",
+            "fields": {
+                "NAME": "String",
+                "ABBREV": "String"
+            },
+            "maxzoom": 6,
+            "minzoom": 0,
+            "description": "world countries points"
         },
         {
-            "id":"mask",
-            "source": "example_source",
-            "source-layer":"mask",
-            "type": "fill",
-            "paint": {
-                "fill-color": "white"
-            }
+            "id": "countries",
+            "fields": {
+                "fid": "Number",
+                "NAME": "String",
+                "ABBREV": "String",
+                "ADM0_A3": "String",
+                "CONTINENT": "String"
+            },
+            "maxzoom": 6,
+            "minzoom": 0,
+            "description": "world countries polygons"
         }
     ],
     "format_arguments": "",
@@ -69,7 +67,6 @@
         1
     ],
     "tiles": [
-        "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"
+        "https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf"
     ]
 }
-
