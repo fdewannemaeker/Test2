@@ -1,6 +1,6 @@
 {
     "tilejson": "2.0.0",
-    "name": "maplibre",
+    "name": "protomaps",
     "type": "baselayer",
     "scale": "1.000000",
     "bounds": [
