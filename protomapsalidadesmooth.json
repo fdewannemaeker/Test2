@@ -2,6 +2,7 @@
   "bearing": 0,
   "center": [10.184401828277087, -1.1368683772161605e-13],
   "glyphs": "https://tiles.stadiamaps.com/fonts/{fontstack}/{range}.pbf",
+  "name": "MapLibre",
   "layers": [
     {
       "id": "background",
