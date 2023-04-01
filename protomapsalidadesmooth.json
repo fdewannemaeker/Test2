@@ -1,11 +1,8 @@
 {
-    "id": "43f36e14-e3f5-43c1-84c0-50a9c80dc5c7",
-    "name": "MapLibre",
-    "pitch": 0,
-    "version": 8,
-    "center": [17.65431710431244, 32.954120326746775],
-    "glyphs": "https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf",
-"layers": [
+  "bearing": 0,
+  "center": [10.184401828277087, -1.1368683772161605e-13],
+  "glyphs": "https://tiles.stadiamaps.com/fonts/{fontstack}/{range}.pbf",
+  "layers": [
     {
       "id": "background",
       "paint": { "background-color": "rgb(242,243,240)" },
@@ -1718,10 +1715,12 @@
       "source-layer": "place",
       "type": "symbol"
     }
-  ],      
-    "bearing": 0,
-    "sources": {
-      "protomaps": {
+  ],
+  "metadata": { "mapbox:autocomposite": false, "openmaptiles:version": "3.x" },
+  "name": "Alidade Smooth",
+  "pitch": 0,
+  "sources": {
+    "protomaps": {
         "type": "vector",
         "tiles": [
           "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"
@@ -1729,11 +1728,8 @@
         "maxzoom": 14
         
       }
-    },
-
-    "metadata": {
-      "maptiler:copyright":
-          "This style was generated on MapTiler Cloud. Usage is governed by the license terms in https://github.com/maplibre/demotiles/blob/gh-pages/LICENSE",
-      "openmaptiles:version": "3.x"
-    }
-  }
+  },
+  "sprite": "https://tiles.stadiamaps.com/styles/alidade-smooth/sprite",
+  "version": 8,
+  "zoom": 0.8902641636539237
+}
