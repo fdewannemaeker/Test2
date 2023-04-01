@@ -1721,7 +1721,7 @@
   "name": "Alidade Smooth",
   "pitch": 0,
   "sources": {
-    "protomaps": {
+    "openmaptiles": {
         "type": "vector",
         "tiles": [
           "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"
