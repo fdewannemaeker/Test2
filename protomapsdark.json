@@ -1,7 +1,7 @@
 {
     "id": "43f36e14-e3f5-43c1-84c0-50a9c80dc5c7",
-    "name": "MapLibre",
-    "pitch": 0,
+  
+    
     "version": 8,
     "center": [17.65431710431244, 32.954120326746775],
     "glyphs": "https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf",
@@ -31,7 +31,7 @@
             "filter": [
                 "any",
                 [
-                    "==",
+                    "==",par
                     "pmap:kind",
                     "park"
                 ],
@@ -1960,8 +1960,7 @@
         "type": "vector",
         "tiles": [
           "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"
-        ],
-        "maxzoom": 14
+        ]
         
       }
     },
