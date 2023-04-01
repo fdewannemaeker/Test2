@@ -1962,7 +1962,7 @@
         "tiles": [
           "https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"
         ],
-        "maxzoom": 14
+        "format":"pbf",
         
       }
     },
