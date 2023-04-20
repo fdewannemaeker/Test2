@@ -1183,7 +1183,18 @@
         "text-halo-color": "#ffffff",
         "text-halo-width": 1
       }
-    }
+    },
+    {
+'id': 'test',
+'type': 'fill',
+'source': 'personal', // reference the data source
+'layout': {},
+'paint': {
+'fill-color': '#0080ff', // blue color fill
+'fill-opacity': 0.5
+}
+}
+    
   ],
 
   "bearing": 0,
