@@ -1184,16 +1184,16 @@
         "text-halo-width": 1
       }
     },
-    {
-'id': 'test',
-'type': 'fill',
-'source': 'personal', // reference the data source
-'layout': {},
-'paint': {
-'fill-color': '#0080ff', // blue color fill
-'fill-opacity': 0.5
-}
-}
+     {
+      "id": "maine",
+      "type": "fill",
+      "source": "maine", 
+      "layout": {},
+      "paint": {
+        "fill-color": "#0080ff", 
+        "fill-opacity": 0.5
+      }
+    }
     
   ],
 
