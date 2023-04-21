@@ -1190,7 +1190,7 @@
       "source": "personal", 
       "layout": {},
       "paint": {
-        "fill-color": "#ff3838", 
+        "fill-color": "#e823fb80", 
         "fill-opacity": 0.5
       }
     }
@@ -1207,7 +1207,8 @@
     },
     "personal": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/someGeoJson.json"
+      "data": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/someGeoJson.json",
+      "maxzoom":12
     }
   },
 
