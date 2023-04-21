@@ -1185,12 +1185,12 @@
       }
     },
     {
-      "id": "from_personal_source_example_layer",
+      "id": "maine",
       "type": "fill",
       "source": "personal", 
       "layout": {},
       "paint": {
-        "fill-color": "#e823fb80", 
+        "fill-color": "#0080ff", 
         "fill-opacity": 0.5
       }
     }
@@ -1207,7 +1207,8 @@
     },
     "personal": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/someGeoJson.json"
+      "data": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/someGeoJson.json",
+      "minzoom":12
     }
   },
 
