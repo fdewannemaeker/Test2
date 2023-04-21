@@ -1207,8 +1207,7 @@
     },
     "personal": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/someGeoJson.json",
-      "maxzoom":12
+      "data": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/someGeoJson.json"
     }
   },
 
