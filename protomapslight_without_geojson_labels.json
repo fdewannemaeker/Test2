@@ -11,14 +11,14 @@
       {
         "id": "background",
         "type": "background",
-        "paint": { "background-color": "black" }
+        "paint": { "background-color": "#de1f5b" }
       },
       {
         "id": "earth",
         "type": "fill",
         "source": "protomaps",
         "source-layer": "earth",
-        "paint": { "fill-color": "#eee" }
+        "paint": { "fill-color": "#de1f5b" }
       },
       {
         "id": "landuse_park",
@@ -30,7 +30,7 @@
           ["==", "pmap:kind", "park"],
           ["==", "landuse", "cemetery"]
         ],
-        "paint": { "fill-color": "#e8e8e8" }
+        "paint": { "fill-color": "#de1f5b" }
       },
       {
         "id": "landuse_hospital",
@@ -38,7 +38,7 @@
         "source": "protomaps",
         "source-layer": "landuse",
         "filter": ["any", ["==", "pmap:kind", "hospital"]],
-        "paint": { "fill-color": "#e8e8e8" }
+        "paint": { "fill-color": "#de1f5b" }
       },
       {
         "id": "landuse_industrial",
@@ -54,7 +54,7 @@
         "source": "protomaps",
         "source-layer": "landuse",
         "filter": ["any", ["==", "pmap:kind", "school"]],
-        "paint": { "fill-color": "#e8e8e8" }
+        "paint": { "fill-color": "#de1f5b" }
       },
       {
         "id": "natural_wood",
@@ -67,7 +67,7 @@
           ["==", "leisure", "nature_reserve"],
           ["==", "landuse", "forest"]
         ],
-        "paint": { "fill-color": "#e8e8e8" }
+        "paint": { "fill-color": "#de1f5b" }
       },
       {
         "id": "landuse_pedestrian",
