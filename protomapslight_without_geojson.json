@@ -10,7 +10,7 @@
     {
       "id": "background",
       "type": "background",
-      "paint": { "background-color": "#0d1117" }
+      "paint": { "background-color": "#eee" }
     },
     {
       "id": "earth",
