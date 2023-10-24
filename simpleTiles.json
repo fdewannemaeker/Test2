@@ -1,8 +1,8 @@
 {
   "id": "protomaps",
-  "tiles": ["https://api.protomaps.com/tiles/v2/{z}/{x}/{y}.pbf?key=dc6932708928fe67"],
+  "tiles": [ "https://alltiles.pmtilez.net/belgium/{z}/{x}/{y}.mvt"],
   "name": "protomaps",
-  "format": "pbf",
+  "format": "vector",
   "attribution": "<a href=\"https://www.stadiamaps.com/\" target=\"_blank\">&copy; Stadia Maps</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/about/\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
   "minzoom": 0,
   "maxzoom": 14,
