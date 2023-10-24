@@ -34,19 +34,42 @@
       "paint": { "background-color": "rgb(242,243,240)" }
     },
 
-    {
-      "id": "Housenumber",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "housenumber",
-      "minzoom": 14,
-      "layout": {
-        "text-font": ["NotoSans-Bold"],
-        "text-size": 13,
-        "text-field": "{housenumber}",
-        "visibility": "visible"
-      }
+   {
+  "id": "House number labels",
+  "type": "symbol",
+  "source": "openmaptiles",
+  "source-layer": "housenumber",
+  "minzoom": 17,
+  "layout": {
+    "text-font": [
+      "Noto Sans Regular"
+    ],
+    "text-size": {
+      "stops": [
+        [
+          17,
+          9
+        ],
+        [
+          22,
+          11
+        ]
+      ]
     },
+    "text-field": "{housenumber}",
+    "text-padding": 3,
+    "text-line-height": -0.15,
+    "symbol-avoid-edges": false,
+    "text-allow-overlap": false,
+    "text-ignore-placement": false,
+    "visibility": "visible"
+  },
+  "paint": {
+    "text-color": "hsl(0, 0%, 40%)",
+    "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
+    "text-halo-width": 1
+  }
+},
 
     {
       "id": "park",
