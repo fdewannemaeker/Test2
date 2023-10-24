@@ -1214,7 +1214,7 @@
       "protomaps": {
         "type": "vector",
         "tiles": [
-          "https://alltiles.pmtilez.net/belgium/x/y/z.mvt"
+          "https://alltiles.pmtilez.net/belgium/{x}/{y}/{z}.mvt"
         ],
         "maxzoom": 14
       }
