@@ -6,7 +6,7 @@
     "sources": {
         "protomaps": {
             "type": "vector",
-            "url":  "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/simpleTiles.json",
+            "url":  "https://alltiles.pmtilez.net/belgium/{z}/{x}/{y}.mvt",
                        
         }
     },
