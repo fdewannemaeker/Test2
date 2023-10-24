@@ -30,7 +30,7 @@
         "id": "Housenumber",
         "type": "symbol",
         "source": "openmaptiles",
-        "source-layer": "housenumber",
+        "source-layer": "openmaptiles",
         "minzoom": 18,
         "layout": {
           "text-font": ["NotoSans-Bold"],
