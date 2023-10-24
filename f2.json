@@ -32,6 +32,26 @@
       "paint": { "fill-color": "#e8e8e8" }
     },
     {
+  "id": "Housenumber",
+  "type": "symbol",
+  "source": "protomaps",
+  "source-layer": "housenumber",
+  "minzoom": 18,
+  "layout": {
+    "text-font": ["NotoSans-Bold"],
+    "text-size": 13,
+    "text-field": "{housenumber}",
+    "visibility": "visible"
+  },
+  "paint": {
+    "text-color": "hsl(26,10%,44%)",
+    "icon-halo-color": "rgba(255, 255, 255, 1)",
+    "text-halo-color": "rgba(255, 255, 255, 1)",
+    "icon-halo-width": 1,
+    "text-halo-width": 1
+  }
+},
+    {
       "id": "landuse_hospital",
       "type": "fill",
       "source": "protomaps",
