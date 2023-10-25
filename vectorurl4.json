@@ -10,14 +10,13 @@
         "icao": "String",
         "name": "String"
       },
-      "minzoom": 8,
-      "maxzoom": 20
+      "minzoom": 8
+    
     },
     {
       "id": "aeroway",
       "fields": { "class": "String", "ref": "String" },
-      "minzoom": 10,
-      "maxzoom": 20
+      "minzoom": 10
     },
     {
       "id": "boundary",
@@ -31,7 +30,6 @@
         "maritime": "Number"
       },
       "minzoom": 0,
-      "maxzoom": 20
     },
     {
       "id": "building",
@@ -41,32 +39,27 @@
         "render_height": "Number",
         "render_min_height": "Number"
       },
-      "minzoom": 13,
-      "maxzoom": 20
+      "minzoom": 13
     },
     {
       "id": "globallandcover",
       "fields": { "class": "String" },
       "minzoom": 0,
-      "maxzoom": 9
     },
     {
       "id": "housenumber",
       "fields": { "housenumber": "String" },
-      "minzoom": 14,
-      "maxzoom": 20
+      "minzoom": 14
     },
     {
       "id": "landcover",
       "fields": { "class": "String", "subclass": "String" },
-      "minzoom": 0,
-      "maxzoom": 20
+      "minzoom": 0
     },
     {
       "id": "landuse",
       "fields": { "class": "String" },
-      "minzoom": 4,
-      "maxzoom": 20
+      "minzoom": 4
     },
     {
       "id": "mountain_peak",
@@ -78,14 +71,12 @@
         "name": "String",
         "rank": "Number"
       },
-      "minzoom": 7,
-      "maxzoom": 20
+      "minzoom": 7
     },
     {
       "id": "park",
       "fields": { "class": "String", "name": "String" },
-      "minzoom": 4,
-      "maxzoom": 15
+      "minzoom": 4
     },
     {
       "id": "place",
@@ -97,8 +88,7 @@
         "rank": "Number",
         "wikidata": "String"
       },
-      "minzoom": 0,
-      "maxzoom": 20
+      "minzoom": 0
     },
     {
       "id": "poi",
@@ -110,8 +100,7 @@
         "name": "String",
         "subclass": "String"
       },
-      "minzoom": 12,
-      "maxzoom": 20
+      "minzoom": 12
     },
     {
       "id": "transportation",
@@ -135,8 +124,7 @@
         "surface": "String",
         "toll": "Number"
       },
-      "minzoom": 4,
-      "maxzoom": 20
+      "minzoom": 4
     },
     {
       "id": "transportation_name",
@@ -157,8 +145,7 @@
         "route_6": "String",
         "subclass": "String"
       },
-      "minzoom": 6,
-      "maxzoom": 20
+      "minzoom": 6
     },
     {
       "id": "water",
@@ -168,8 +155,7 @@
         "id": "Number",
         "intermittent": "Number"
       },
-      "minzoom": 0,
-      "maxzoom": 20
+      "minzoom": 0
     },
     {
       "id": "water_name",
@@ -179,8 +165,7 @@
         "name": "String",
         "rank": "Number"
       },
-      "minzoom": 0,
-      "maxzoom": 20
+      "minzoom": 0
     },
     {
       "id": "waterway",
@@ -190,8 +175,7 @@
         "intermittent": "Number",
         "name": "String"
       },
-      "minzoom": 3,
-      "maxzoom": 20
+      "minzoom": 3
     }
   ],
   "tilestats": {
@@ -883,8 +867,7 @@
   },
   "format": "vector",
   "version": "3.14.0",
-  "minzoom": 0,
-  "maxzoom": 20,
+  "minzoom": 0
   "generator": "MapTiler Data",
   "id": "v3",
   "planettime": "1694908800000",
