@@ -881,10 +881,10 @@
       }
     ]
   },
-  "format": "pbf",
+  "format": "vector",
   "version": "3.14.0",
   "minzoom": 0,
-  "maxzoom": 15,
+  "maxzoom": 20,
   "generator": "MapTiler Data",
   "id": "v3",
   "planettime": "1694908800000",
