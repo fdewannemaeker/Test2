@@ -13,7 +13,7 @@
    
     "openmaptiles": {
       "type": "vector",
-      "url": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/vectorurl1.json"
+      "url": "https://raw.githubusercontent.com/fdewannemaeker/Test2bis/master/vectorurl2.json"
     }
   },
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=v1vmfPA4oxplmjWUQ7vy",
