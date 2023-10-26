@@ -1,0 +1,28 @@
+{
+    "version":8,
+  
+  "glyphs":"https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf",  
+  
+    "sources": {
+        "protomaps": {
+            "type": "vector",
+            "url":  "https://alltiles.pmtilez.net/belgium/{z}/{x}/{y}.mvt",
+                       
+        }
+    },
+    "layers": [
+         {
+  "id": "Housenumber",
+  "type": "symbol",
+  "source": "protomaps",
+  "source-layer": "housenumber",
+  "minzoom": 18,
+  "layout": {
+    "text-font": ["NotoSans-Bold"],
+    "text-size": 13,
+    "text-field": "{housenumber}",
+    "visibility": "visible"
+  },
+        
+    ]
+}
