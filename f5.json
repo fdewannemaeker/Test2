@@ -1,0 +1,126 @@
+{
+  "id": "43f36e14-e3f5-43c1-84c0-50a9c80dc5c7",
+  "name": "MapLibre",
+  "pitch": 0,
+  "version": 8,
+  "center": [17.65431710431244, 32.954120326746775],
+  "glyphs": "https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf",
+
+  "layers": [
+    {
+      "id": "Housenumber",
+      "type": "symbol",
+      "source": "protomaps",
+      "source-layer": "housenumber",
+      "minzoom": 18,
+      "layout": {
+        "text-font": ["NotoSans-Bold"],
+        "text-size": 13,
+        "text-field": "{housenumber}",
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "hsl(26,10%,44%)",
+        "icon-halo-color": "rgba(255, 255, 255, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
+        "icon-halo-width": 1,
+        "text-halo-width": 1
+      }
+    },
+    {
+        "id": "background",
+        "type": "background",
+        "paint": {"background-color": "hsl(47, 26%, 88%)"}
+      },
+      {
+        "id": "landuse-residential",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "landuse",
+        "filter": [
+          "all",
+          ["==", "$type", "Polygon"],
+          ["in", "class", "residential", "suburb", "neighbourhood"]
+        ],
+        "layout": {"visibility": "visible"},
+        "paint": {"fill-color": "hsl(47, 13%, 86%)", "fill-opacity": 0.7}
+      },
+      {
+        "id": "landcover_grass",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "landcover",
+        "filter": ["==", "class", "grass"],
+        "paint": {"fill-color": "hsl(82, 46%, 72%)", "fill-opacity": 0.45}
+      },
+      {
+        "id": "landcover_wood",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "landcover",
+        "filter": ["==", "class", "wood"],
+        "paint": {
+          "fill-color": "hsl(82, 46%, 72%)",
+          "fill-opacity": {"base": 1, "stops": [[8, 0.6], [22, 1]]}
+        }
+      },
+      {
+        "id": "water",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "water",
+        "filter": [
+          "all",
+          ["==", "$type", "Polygon"],
+          ["!=", "intermittent", 1],
+          ["!=", "brunnel", "tunnel"]
+        ],
+        "layout": {"visibility": "visible"},
+        "paint": {"fill-color": "hsl(205, 56%, 73%)"}
+      },
+      {
+        "id": "water_intermittent",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "water",
+        "filter": ["all", ["==", "$type", "Polygon"], ["==", "intermittent", 1]],
+        "layout": {"visibility": "visible"},
+        "paint": {"fill-color": "hsl(205, 56%, 73%)", "fill-opacity": 0.7}
+      },
+      {
+        "id": "landcover-ice-shelf",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "landcover",
+        "filter": ["==", "subclass", "ice_shelf"],
+        "layout": {"visibility": "visible"},
+        "paint": {"fill-color": "hsl(47, 26%, 88%)", "fill-opacity": 0.8}
+      },
+      {
+        "id": "landcover-glacier",
+        "type": "fill",
+        "source": "protomaps",
+        "source-layer": "landcover",
+        "filter": ["==", "subclass", "glacier"],
+        "layout": {"visibility": "visible"},
+        "paint": {
+          "fill-color": "hsl(47, 22%, 94%)",
+          "fill-opacity": {"base": 1, "stops": [[0, 1], [8, 0.5]]}
+        }
+      }
+  ],
+
+  "bearing": 0,
+  "sources": {
+    "protomaps": {
+      "type": "vector",
+      "tiles": ["https://alltiles.pmtilez.net/belgium/{z}/{x}/{y}.mvt"],
+      "maxzoom": 14
+    }
+  },
+
+  "metadata": {
+    "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage is governed by the license terms in https://github.com/maplibre/demotiles/blob/gh-pages/LICENSE",
+    "protomaps:version": "3.x"
+  }
+}
