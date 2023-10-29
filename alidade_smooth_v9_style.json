@@ -168,7 +168,7 @@
         "paint": {
           "fill-antialias": true,
           "fill-color": "hsl(95, 5%, 84%)",
-          "fill-outline-color": "rgba(108, 108, 108, 1)",
+          "fill-outline-color": "rgba(255,255,255, 1)",
           "fill-opacity": [
             "interpolate",
             ["linear"],
@@ -187,7 +187,7 @@
     "type": "symbol",
     "source": "openmaptiles",
     "source-layer": "housenumber",
-    "minzoom": 16,
+    "minzoom": 17,
     "filter": ["==", "$type", "Point"],
     "layout": {
       "text-field": "{housenumber}",
@@ -203,9 +203,9 @@
             "interpolate",
             ["linear"],
             ["zoom"],
-            16,
+            17,
             0.1,
-            20,
+            19,
             1
           ]
     }
